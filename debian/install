@@ -1,0 +1,6 @@
+libvdr-upnp.so.*    usr/lib/vdr/plugins/
+plugins/profiler/vdrDVBProfiler/libupnp-*-profiler.so.*			usr/lib/vdr/plugins/
+plugins/provider/recProvider/libupnp-*-provider.so.*		 	usr/lib/vdr/plugins/
+plugins/provider/vdrProvider/libupnp-*-provider.so.*			usr/lib/vdr/plugins/
+debian/plugin.upnp.conf                 etc/vdr/plugins/
+locale              usr/share/

@@ -1,0 +1,61 @@
+vdr-plugin-upnp (1.0.0.git20130307-0yavdr0~precise) precise; urgency=medium
+
+  * new upstream snapshot
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Thu, 07 Mar 2013 18:19:23 +0100
+
+vdr-plugin-upnp (1.0.0.git20121124-0yavdr4~precise) precise; urgency=medium
+
+  * rebuild
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Thu, 07 Mar 2013 02:04:48 +0100
+
+vdr-plugin-upnp (1.0.0.git20121124-0yavdr3~precise) precise; urgency=medium
+
+  * rebuild
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Wed, 06 Mar 2013 15:30:29 +0100
+
+vdr-plugin-upnp (1.0.0.git20121124-0yavdr2~precise) precise; urgency=medium
+
+  * rebuild
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Wed, 05 Dec 2012 21:18:20 +0100
+
+vdr-plugin-upnp (1.0.0.git20121124-0yavdr1~precise) precise; urgency=medium
+
+  * rebuild
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Sat, 01 Dec 2012 16:03:15 +0100
+
+vdr-plugin-upnp (1.0.0.git20121124-0yavdr0~precise) precise; urgency=medium
+
+  * git snapshot
+
+ -- Holger Schvestka <hotzenplotz5@gmx.de>  Sat, 24 Nov 2012 18:29:06 +0100
+
+vdr-plugin-upnp (1.0.0.git20121121-2yavdr0~precise) precise; urgency=medium
+
+  * add libtntdb to dependencies
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Wed, 21 Nov 2012 21:41:51 +0100
+
+vdr-plugin-upnp (1.0.0.git20121121-1yavdr0~precise) precise; urgency=medium
+
+  * update depends
+  * add -dbg package
+
+ -- Lars Hanisch <dvb@flensrocker.de>  Wed, 21 Nov 2012 21:17:51 +0100
+
+vdr-plugin-upnp (1.0.0.git20121121-0yavdr0~precise) precise; urgency=medium
+
+  * git snapshot
+
+ -- Holger Schvestka <hotzenplotz5@gmx.de>  Wed, 21 Nov 2012 19:55:06 +0100
+
+vdr-plugin-upnp (0.0.1-alpha4-ubuntu7) karmic; urgency=low
+
+  * Initial release
+
+ -- Holger Schvestka <hotzenplotz5@gmx.de>  Fri, 23 Oct 2009 18:20:52 +0200
+

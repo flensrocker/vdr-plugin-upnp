@@ -1,0 +1,33 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+MAKE_OPTIONS = VDRDIR=/usr/include/vdr LIBDIR=. LOCALEDIR=locale
+
+%:
+	dh $@
+
+override_dh_auto_build:
+	dh_auto_build -- all $(MAKE_OPTIONS)
+	dh_auto_build -- subplugins $(MAKE_OPTIONS)
+
+override_dh_auto_clean:
+	$(MAKE) -o .dependencies clean $(MAKE_OPTIONS)
+	rm -rf locale libvdr-*.so.*
+	rm -rf plugins/profiler/vdrDVBProfiler/libupnp-dvb-profiler*
+	rm -rf plugins/profiler/vdrDVBProfiler/dvbProfiler.o
+	rm -rf plugins/provider/recProvider/libupnp-rec-provicer*
+	rm -rf plugins/provider/recProvider/recProvider.o
+	rm -rf plugins/provider/vdrProvider/libupnp-vdr-provider*
+	rm -rf plugins/provider/vdrProvider/vdrProvider.o
+
+override_dh_gencontrol:
+	sh /usr/share/vdr-dev/dependencies.sh
+	dh_gencontrol
+
+override_dh_auto_install:
+
+override_dh_strip:
+	dh_strip --dbg-package=vdr-plugin-upnp-dbg
+
